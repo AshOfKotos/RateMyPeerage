@@ -1,0 +1,116 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Georgia", serif;
+}
+
+/* BODY */
+body {
+    background-color: #1a1a1a;
+    color: #e5e5e5;
+}
+
+/* HEADER */
+header {
+    background: linear-gradient(to right, #2c2c2c, #111);
+    text-align: center;
+    padding: 2rem 1rem;
+    border-bottom: 2px solid #c9a44c;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #c9a44c;
+}
+
+header p {
+    margin-top: 0.5rem;
+    font-style: italic;
+}
+
+/* SEARCH */
+.search-section {
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+    gap: 10px;
+}
+
+.search-section input {
+    width: 320px;
+    padding: 0.7rem;
+    border-radius: 6px;
+    border: none;
+}
+
+.search-section button {
+    padding: 0.7rem 1rem;
+    background-color: #c9a44c;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.search-section button:hover {
+    background-color: #a38336;
+}
+
+/* SECTION */
+.peers {
+    padding: 2rem;
+    text-align: center;
+}
+
+.peers h2 {
+    margin-bottom: 1.5rem;
+    color: #c9a44c;
+}
+
+/* CARDS */
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: #2b2b2b;
+    padding: 1.5rem;
+    width: 260px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+    text-align: left;
+    border: 1px solid #444;
+}
+
+.card h3 {
+    margin-bottom: 0.5rem;
+}
+
+.card .title {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+/* COLOR VARIANTS */
+.knight {
+    border-left: 5px solid #c9a44c;
+}
+
+.warmaster {
+    border-left: 5px solid #b91c1c;
+}
+
+.blademaster {
+    border-left: 5px solid #2563eb;
+}
+
+.rating {
+    color: #fbbf24;
+    font-weight: bold;
+    margin: 0.5rem 0;
+}
